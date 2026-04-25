@@ -14,7 +14,7 @@ public class MainFrame extends JFrame {
     private JButton activeBtn = null;
 
     public MainFrame() {
-        setTitle("Company HRMS – HR Dashboard");
+        setTitle("Company Thirty-One – HR Dashboard");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(1150, 720);
         setLocationRelativeTo(null);
@@ -31,7 +31,7 @@ public class MainFrame extends JFrame {
         header.setPreferredSize(new Dimension(0, 50));
         header.setBorder(BorderFactory.createEmptyBorder(0, 15, 0, 15));
 
-        JLabel logo = new JLabel("Company HRMS");
+        JLabel logo = new JLabel("Company Thirty-One");
         logo.setFont(new Font("Segoe UI", Font.BOLD, 18));
         logo.setForeground(Color.WHITE);
 
